@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "arrow-body-style": "off",
+    "class-methods-use-this": "off",
+    "linebreak-style": "off",
+    "operator-linebreak": "off",
+    "semi": ["error", "never"]
+  }
+}
