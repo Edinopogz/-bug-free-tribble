@@ -1,0 +1,39 @@
+{
+  "name": "ton-notify-bot",
+  "version": "0.0.1",
+  "description": "🚀 The bot can notify users about new events of TON addresses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonbase/ton-notify-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonbase/ton-notify-bot/issues"
+  },
+  "homepage": "https://github.com/tonbase/ton-notify-bot#readme",
+  "dependencies": {
+    "bull": "^3.29.2",
+    "chalk": "^4.1.2",
+    "convict": "^5.2.1",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.5",
+    "node-fetch": "^2.6.2",
+    "telegraf": "^3.39.0",
+    "telegraf-i18n": "^6.6.0",
+    "tonweb": "0.0.20",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
